@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		E923B2F92A77EC3300C65252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E923B2F82A77EC3300C65252 /* AppDelegate.swift */; };
 		E923B2FB2A77EC3300C65252 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E923B2FA2A77EC3300C65252 /* SceneDelegate.swift */; };
-		E923B2FD2A77EC3300C65252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E923B2FC2A77EC3300C65252 /* ViewController.swift */; };
 		E923B3002A77EC3300C65252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E923B2FE2A77EC3300C65252 /* Main.storyboard */; };
 		E923B3022A77EC3400C65252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E923B3012A77EC3400C65252 /* Assets.xcassets */; };
 		E923B3052A77EC3400C65252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E923B3032A77EC3400C65252 /* LaunchScreen.storyboard */; };
+		E923B3112A77FEC300C65252 /* DogCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E923B3102A77FEC300C65252 /* DogCollectionViewCell.swift */; };
+		E923B3132A7BD08100C65252 /* network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E923B3122A7BD08100C65252 /* network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E923B2F52A77EC3300C65252 /* 91App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 91App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E923B2F82A77EC3300C65252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E923B2FA2A77EC3300C65252 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E923B2FC2A77EC3300C65252 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E923B2FF2A77EC3300C65252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E923B3012A77EC3400C65252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E923B3042A77EC3400C65252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E923B3062A77EC3400C65252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E923B3102A77FEC300C65252 /* DogCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCollectionViewCell.swift; sourceTree = "<group>"; };
+		E923B3122A7BD08100C65252 /* network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 		E923B2F72A77EC3300C65252 /* 91App */ = {
 			isa = PBXGroup;
 			children = (
+				E923B3122A7BD08100C65252 /* network.swift */,
+				E923B3102A77FEC300C65252 /* DogCollectionViewCell.swift */,
 				E923B2F82A77EC3300C65252 /* AppDelegate.swift */,
 				E923B2FA2A77EC3300C65252 /* SceneDelegate.swift */,
-				E923B2FC2A77EC3300C65252 /* ViewController.swift */,
 				E923B2FE2A77EC3300C65252 /* Main.storyboard */,
 				E923B3012A77EC3400C65252 /* Assets.xcassets */,
 				E923B3032A77EC3400C65252 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E923B2FD2A77EC3300C65252 /* ViewController.swift in Sources */,
 				E923B2F92A77EC3300C65252 /* AppDelegate.swift in Sources */,
+				E923B3112A77FEC300C65252 /* DogCollectionViewCell.swift in Sources */,
+				E923B3132A7BD08100C65252 /* network.swift in Sources */,
 				E923B2FB2A77EC3300C65252 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
