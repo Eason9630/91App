@@ -237,6 +237,7 @@ extension SearchViewController: UICollectionViewDelegate,UICollectionViewDataSou
                 URLSession.shared.dataTask(with: url) { data, _, error in
                     if let data = data, let image = UIImage(data: data) {
                         DispatchQueue.main.async {
+                            //獲取指定索引路徑位置的 Cell
                             if let cell = collectionView.cellForItem(at: IndexPath(row: i, section: 0)) as? DogCollectionViewCell {
                                 cell.storePhoto.image = image
                             }
